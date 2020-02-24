@@ -8,7 +8,7 @@ client.remove_command("help")
 
 
 @client.command()
-@commands.has_any_role(680810235983691923, 680907434138664979)
+@commands.has_any_role(680810235983691923, 680907434138664979,524317186765094921)
 async def testing(ctx, *, text=None):
     testing_embed = discord.Embed(title=text,
                                   icon_url="", color=0x0309e2)
