@@ -52,4 +52,4 @@ async def clear_error(ctx, error):
     if isinstance(error, commands.MissingAnyRole):
         await ctx.send("`You are not allowed to run this command.`")
 
-client.run(os.environ['DISCORD_TOKEN'])
+client.run(os.environ['DISCORD_TOKEN1'])
