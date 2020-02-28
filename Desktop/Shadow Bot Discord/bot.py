@@ -53,4 +53,4 @@ async def clear_error(ctx, error):
         await ctx.send("`You are not allowed to run this command.`")
         
 
-client.run(os.environ['DISCORD_TOKEN1'])
+client.run(os.environ['DISCORD_TOKEN'])
